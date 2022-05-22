@@ -1,0 +1,19 @@
+.advantages {
+    background-color: #f6f6f6;
+    min-height: 469px;
+    &__header {
+        padding-top: 69px;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        }
+    &__icons {
+            padding-top: 69px;
+            display: flex;
+            justify-content: space-between;
+        }
+    &__icon {
+        width: 260px;
+    }  
+
+    }
