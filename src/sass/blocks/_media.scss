@@ -3,7 +3,7 @@
         &__wrapper {
             align-items: center; 
         }
-}
+    }
     .advantages {
         &__icon {
             &__descr {
@@ -11,8 +11,23 @@
             }
         }
     }
+    .feed-form {
+        padding-left: 50px;    
+    }
+    .title.title {
+        &_left {
+            padding-left: 50px;
+            font-size: 20px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 10px;
+            padding-left: 50px;
+            
+        }
+    }
 }
-
 @media (max-width: 768px) {
     .header { 
         &__phone {
@@ -35,7 +50,7 @@
     }
     .advantages__icons {
         flex-direction: column;
-        align-items: center;
+        align-items: center;   
     }
 }
 @media (max-width: 320px) {
@@ -54,5 +69,15 @@
     .button_main {
         width: 300px;
         height: 50px;
+    }
+    div.consultation {
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    .button.button {
+        &_submit {
+            font-size: 8px;
+        }
     }
 }
